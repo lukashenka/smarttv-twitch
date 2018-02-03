@@ -32,7 +32,7 @@ AddUser.exit = function() {
 };
 
 AddUser.handleKeyDown = function(event) {
-    if (AddUser.loadingData || AddUser.keyBoardOn) {
+    if (AddUser.loadingData) {
         event.preventDefault();
         return;
     }
